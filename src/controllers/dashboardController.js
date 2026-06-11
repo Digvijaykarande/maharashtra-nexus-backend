@@ -1,13 +1,12 @@
-import Village from "../models/villageModel.js";
-import Division from "../models/divisionModel.js";
-import District from "../models/districtModel.js";
-import Taluka from "../models/talukaModel.js";
-import City from "../models/cityModel.js";
-import Town from "../models/townModel.js";
-import Hospital from "../models/hospitalModel.js";
-import School from "../models/schoolModel.js";
-import College from "../models/collegeModel.js";
-
+import Village from "../models/VillageModel.js";
+import Division from "../models/DivisionModel.js";
+import District from "../models/DistrictModel.js";
+import Taluka from "../models/TalukaModel.js";
+import City from "../models/CityModel.js";
+import Town from "../models/TownModel.js";
+import Hospital from "../models/HospitalModel.js";
+import School from "../models/SchoolModel.js";
+import College from "../models/CollegeModel.js";
 export const getDashboardStats = async (
   req,
   res

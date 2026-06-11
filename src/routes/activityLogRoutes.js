@@ -1,5 +1,5 @@
 import express from "express";
-import { getActivityLogs, getActivityLog, createActivityLog, updateActivityLog, deleteActivityLog } from "../controllers/ActivityLogController.js";
+import { getActivityLogs, getActivityLog, createActivityLog, updateActivityLog, deleteActivityLog } from "../controllers/activityLogController.js";
 
 const router = express.Router();
 

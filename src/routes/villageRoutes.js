@@ -1,5 +1,5 @@
 import express from "express";
-import { getVillages, getVillage, createVillage, updateVillage, deleteVillage } from "../controllers/VillageController.js";
+import { getVillages, getVillage, createVillage, updateVillage, deleteVillage } from "../controllers/villageController.js";
 
 const router = express.Router();
 

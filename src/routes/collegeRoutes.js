@@ -1,5 +1,5 @@
 import express from "express";
-import { getColleges, getCollege, createCollege, updateCollege, deleteCollege } from "../controllers/CollegeController.js";
+import { getColleges, getCollege, createCollege, updateCollege, deleteCollege } from "../controllers/collegeController.js";
 
 const router = express.Router();
 

@@ -1,5 +1,5 @@
 import express from "express";
-import { getHospitals, getHospital, createHospital, updateHospital, deleteHospital } from "../controllers/HospitalController.js";
+import { getHospitals, getHospital, createHospital, updateHospital, deleteHospital } from "../controllers/hospitalController.js";
 
 const router = express.Router();
 

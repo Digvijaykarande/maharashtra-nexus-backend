@@ -22,7 +22,7 @@ app.use(express.json());
 
 const allowedOrigins = [
   "http://localhost:3000", 
-  "https://your-frontend-domain.com" 
+  "https://maharashtra-nexus-frontend.vercel.app" 
 ];
 
 app.use(cors({

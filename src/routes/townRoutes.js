@@ -4,6 +4,6 @@ import { getTowns, getTown, createTown, updateTown, deleteTown } from "../contro
 const router = express.Router();
 
 router.route("/").get(getTowns).post(createTown);
-router.route("/:slug").get(getTown).patch(updateTown).delete(deleteTown);
+router.route("/:slug").get(getTown).put(updateTown).delete(deleteTown);
 
 export default router;

@@ -4,6 +4,6 @@ import { getCities, getCity, createCity, updateCity, deleteCity } from "../contr
 const router = express.Router();
 
 router.route("/").get(getCities).post(createCity);
-router.route("/:slug").get(getCity).patch(updateCity).delete(deleteCity);
+router.route("/:slug").get(getCity).put(updateCity).delete(deleteCity);
 
 export default router;
